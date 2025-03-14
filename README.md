@@ -2,9 +2,6 @@
 - Hi! Here is our final project for the time series class; because the data files exceed 100MB, we only include the sample data, but here is the data source link: https://www.kaggle.com/competitions/m5-forecasting-accuracy
 - Link for final report: https://github.com/katarinaa19/Time-Series/blob/main/TS%20Final%20report.pdf
 - Sample data: https://github.com/katarinaa19/Time-Series/blob/main/sample_data_due_to_large_csv.xlsx
-- EDA process
-    - https://github.com/katarinaa19/Time-Series/blob/main/exploratory_data_analysis.ipynb
-    - https://github.com/katarinaa19/Time-Series/blob/main/eda-insights.md
 - ETS+ARIMAX
     - https://github.com/katarinaa19/Time-Series/blob/main/ETS%2BARIMA.ipynb
     - https://github.com/katarinaa19/Time-Series/blob/main/ETS%2BARIMA.html
@@ -20,3 +17,6 @@
 - LSTM
   - https://github.com/katarinaa19/Time-Series/blob/main/TS_Project_LSTM(1).html
   - https://github.com/katarinaa19/Time-Series/blob/main/TS_Project_LSTM.ipynb
+- EDA process
+    - https://github.com/katarinaa19/Time-Series/blob/main/exploratory_data_analysis.ipynb
+    - EDA summary: https://github.com/katarinaa19/Time-Series/blob/main/eda-insights.md
