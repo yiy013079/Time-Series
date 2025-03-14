@@ -9,8 +9,8 @@ Below are the major findings from our exploratory data analysis. These insights 
 - [1. Time-Series Trends & Moving Averages](#1-time-series-trends--moving-averages)
 - [2. Time-Series Decomposition Analysis](#2-time-series-decomposition-analysis)
 - [3. Power Spectrum Analysis (FFT)](#3-power-spectrum-analysis-fft)
-- [4. Variance Analysis](#4-variance-analysis)
-- [4. Variance Analysis](#4-variance-analysis)
+- [4.1 Variance Analysis](#4-variance-analysis)
+- [4.2 Variance Analysis](#4-variance-analysis)
 - [5. Weekday Patterns (Store TX_3, WI_1)](#5-weekday-patterns-store-tx_3-wi_1)
 - [6. Correlation Heatmap (Store CA_1, TX_1)](#6-correlation-heatmap-store-ca_1-tx_1)
 - [7. Impact of Events on Sales](#7-impact-of-events-on-sales)
@@ -99,7 +99,7 @@ Sales volatility is not constant. A log transform can help stabilize variance, a
 
 ---
 
-## 5. Variance Stability Test
+## 4. Variance Stability Test
 
 **Key Takeaway:**
 The variance stability tests indicate that the original data has stable variance, as confirmed by both Bartlett’s and Levene’s tests. However, the log transformation introduces instability, as Bartlett’s test reports a significant p-value, while Levene’s test suggests otherwise. In contrast, the Box-Cox transformation effectively stabilizes variance, with both tests yielding high p-values, confirming its suitability for variance normalization. The Box-Cox lambda value of approximately 0.95 suggests minimal transformation was needed.
